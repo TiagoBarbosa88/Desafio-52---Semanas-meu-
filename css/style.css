@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:ital,wght@0,700;1,200;1,400;1,600&family=Roboto:ital,wght@0,100;0,400;1,700&display=swap");
+@import url("https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --font-primary: "Roboto", serif;
+    --font-secundary: "Mulish", serif;
+    --font-action: "Lobster", serif;
+}
+
+body {
+    background: #faf6ed;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background: #373b44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373b44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373b44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 3.5rem;
+    padding-left: 15px;
+    color: rgb(76, 235, 76);
+}
+
+.logo h1 {
+    font-family: var(--font-action), sans-serif;
+    padding-right: 8px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.menu {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    font-size: 1.5rem;
+    font-family: var(--font-primary), sans-serif;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+    background-color: #4286f4;
+    transition: all 0.5s;
+}
+
+.bem-vindo {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+}
+
+.titulo-h1 {
+    font-family: var(--font-secundary), sans-serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.titulo-h2 {
+    font-family: var(--font-primary), sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-cofre {
+    width: 55%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cofre img {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao {
+    width: 45%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-h3 {
+    font-family: var(--font-primary), sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+/* .titulo-h3::before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+    background: #4286f4;
+} */
+
+.paragrafo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.button {
+    background: #373b44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373b44);
+    background: linear-gradient(to right, #4286f4, #373b44);
+    font-family: var(--font-secundary);
+    text-transform: uppercase;
+    color: white;
+    height: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 1.5rem 1.8rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-calcular {}
+
+
+/* ----- Calcular ------ */
+
+.container2 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao-left {
+    width: 45%;
+    background: red;
+    padding: 20px 10px 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao-right {
+    width: 45%;
+    background-color: #373b44;
+    padding: 20px 10px 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
