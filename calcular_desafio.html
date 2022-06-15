@@ -10,27 +10,27 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <script src="https://kit.fontawesome.com/7b6cffeae5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Faça as contas</title>
 
 </head>
 </body>
 <header class="header">
     <div class="logo">
-        <h1>Poupa</h1>
+        <h1>Poupar</h1>
         <i class="fa-solid fa-hand-holding-dollar"></i>
     </div>
     <nav>
         <ul class="menu">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/calcular_desafio.html">Faça as contas</a></li>
-            <li><a href="#">Saiba mais</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./sobre_desafio.html">Sobre o desafio</a></li>
+            <li><a href="./calcular_desafio.html">Faça as contas</a></li>
         </ul>
 
     </nav>
 </header>
 
-<section class="bem-vindo">
+<section class="container-principal">
     <div>
         <h1 class="titulo-h1">Faça uma simulação</h1>
 
@@ -43,8 +43,8 @@
         <h3 class="titulo-h3">Como funciona </h3>
         <div class="paragrafo">
             <p>Descubra como funciona este desafio.</p>
-
-            <button class="button" type="submit">Vamos Lá</button>
+            <a href="./sobre_desafio.html">
+                <button class="btn" type="submit">Sobre o desafio</button></a>
 
         </div>
     </div>
@@ -54,10 +54,28 @@
         <div class="paragrafo">
             <p>Informe o valor inicial do desafio.</p>
 
-            <input class="button" type="submit" value="Calcular">
+            <button class="btn" type="submit">Calcular</button>
 
         </div>
 
 </section>
+<footer>
+    <div class="footer-content">
+        <p>
+            Copyright &copy; 2022, Tiago Barbosa - Todos os direitos reservados
+        </p>
+        <div class="social-list">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+<script src="./script/script.js"></script>
+</body>
 
 </html>
